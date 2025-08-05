@@ -49,8 +49,8 @@ mkdir C:\playwright-profile
 
 - The browser must be launched with a remote debugging port specified so code can be run after authentication
 
-| OS | Browser | Command |
-|----|---------|---------|
+| Browser | OS | Command |
+|---------|----|---------|
 |Brave|Linux|brave-browser --remote-debugging-port=9222 --user-data-dir="$HOME/.config/playwright-profile" --new-window https://www.google.com/alerts|
 |Brave|Windows|"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" --remote-debugging-port=9222 --user-data-dir="C:\playwright-profile" --new-window https://www.google.com/alerts|
 |Chromium|Linux|chromium --remote-debugging-port=9222 --user-data-dir="$HOME/.config/playwright-profile" --new-window https://www.google.com/alerts|
@@ -62,7 +62,7 @@ mkdir C:\playwright-profile
 
 <br>
 
-- Once browser is launched log into Google Account
+- Once browser is launched log into Google Account the same way it is normally done manually
 <br>
 
 Run the program to load data, connect to browser instance, and configure alerts (ensure PORT variable in file matches one used launching browser):
